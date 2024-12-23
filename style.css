@@ -1,0 +1,184 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+.flex-header {
+    background-color: #1F2937;
+    color:white;
+    display: flex;
+    height: 50px;
+    padding: 0 50px 0 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    flex-basis: 40%;
+    
+}
+
+.links {
+   display: flex;
+   flex-wrap: nowrap;
+    width: 600px;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.first-box {
+    background-color: #1F2937;
+    color:white;
+    display: flex;
+    height: 400px;
+    padding: 30px 100px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left-box {
+    width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+    
+    
+}
+
+    .p-title {
+        font-size: 48px;
+        color: #f9faf8;
+        font-weight: 800;
+        line-height: 1;
+    }
+
+    .p-subtext {
+        margin-top: 10px;
+    }
+
+    .sign-up-1 {
+        background-color: #3882f6;
+        color: white;
+        margin-top: 10px;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        font-weight: 500;
+    }    
+.right-box {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    flex-shrink: 0;
+}
+
+.second-box {
+display: flex;
+flex-flow: column;
+justify-content: space-evenly;
+align-items: center;
+height: 480px;
+padding-bottom: 50px;
+}
+.second-header {
+ 
+}
+.four-images {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+   
+}
+
+.images {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    border: solid 2px #3882F6; 
+}
+
+.subtext {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
+.subtext-box {
+    height: 100px;
+    width: 150px;
+    padding: 8px;
+    text-wrap: wrap;
+    font-size: 12px;
+
+}
+
+.third-box {
+    background-color:#E5E7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;
+color: #1f2937;
+width: 850px;
+}
+
+.quotee {
+    color: #1f2937;
+    width: 800px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.fourth-box {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sign-up-box {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    width: 800px;
+    height: 150px;
+    align-items: center;
+    color: white;
+    
+}
+
+.sign-up-2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: white 2px solid;
+    color: white; 
+    background-color: #3882F6;
+}
+
+.span {
+    font-size: bold;
+}
